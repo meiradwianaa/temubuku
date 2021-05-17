@@ -1,0 +1,702 @@
+@prefix data: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+data:1 rdf:type data:buku;
+    data:id "1";
+    data:judul "60 Jam Pintar Baca Tanpa Di Eja";
+    data:kategori "Anak";
+    data:penulis "Yuliana Yusuf";
+    data:penerbit "Pustaka Ilham";
+    data:tahun_terbit "2018";
+    data:harga "68.000";
+    data:stok "1249";
+    data:halaman "128";
+    data:isbn "978-602-6744-22-7";
+    data:urlFoto "";
+    .
+
+data:2 rdf:type data:buku;
+    data:id "2";
+    data:judul "Permulaan Belajar Berhitung Untuk TK 4-6 Tahun";
+    data:kategori "Anak";
+    data:penulis "Aida Hanifah";
+    data:penerbit "Pustaka Ilham";
+    data:tahun_terbit "2019";
+    data:harga "27.500";
+    data:stok "2";
+    data:halaman "96";
+    data:isbn "978-602-525-098-9";
+    data:urlFoto "";
+    .
+
+data:3 rdf:type data:buku;
+    data:id "3";
+    data:judul "The Stories of Nabi & Rasul Allah Vol.02";
+    data:kategori "Anak";
+    data:penulis "Muhammad Ihsan";
+    data:penerbit "Genta Group Production";
+    data:tahun_terbit "2018";
+    data:harga "48.000";
+    data:stok "16";
+    data:halaman "64";
+    data:isbn "978-602-5585-19-3";
+    data:urlFoto "";
+    .
+
+data:4 rdf:type data:buku;
+    data:id "4";
+    data:judul "BACAIN - Belajar Membaca Sambil Bermain";
+    data:kategori "Anak";
+    data:penulis "Lutfiya Cahyani";
+    data:penerbit "Genta Group Production";
+    data:tahun_terbit "2018";
+    data:harga "68.000";
+    data:stok "17";
+    data:halaman "264";
+    data:isbn "978-602-6991-77-5";
+    data:urlFoto "";
+    .
+
+data:5 rdf:type data:buku;
+    data:id "5";
+    data:judul "MEWARNAI PUTRI CANTIK SAMBIL BELAJAR";
+    data:kategori "Anak";
+    data:penulis "Aida Hanifah";
+    data:penerbit "Pustaka Ilham";
+    data:tahun_terbit "";
+    data:harga "36.000";
+    data:stok "1";
+    data:halaman "48";
+    data:isbn "978-602-615-226-8";
+    data:urlFoto "";
+    .
+
+data:6 rdf:type data:buku;
+    data:id "6";
+    data:judul "LATIHAN MENULIS TEGAK BERSAMBUNG – BONUS BUKU DOA";
+    data:kategori "Anak";
+    data:penulis "Aida Hanifah";
+    data:penerbit "Bintang Bunda";
+    data:tahun_terbit "";
+    data:harga "28.000";
+    data:stok "465";
+    data:halaman "48";
+    data:isbn "978-623-7524-19-9";
+    data:urlFoto "";
+    .
+
+data:7 rdf:type data:buku;
+    data:id "7";
+    data:judul "Top Sukses Psikotes Gambar & PnP";
+    data:kategori "Psikologi";
+    data:penulis "Enha Punjabi";
+    data:penerbit "Genta Smart Publisher";
+    data:tahun_terbit "";
+    data:harga "115.000";
+    data:stok "5";
+    data:halaman "512";
+    data:isbn "-";
+    data:urlFoto "";
+    .
+
+data:8 rdf:type data:buku;
+    data:id "8";
+    data:judul "MOMMYCLOPEDIA 78 RESEP MPASI";
+    data:kategori "Parenting";
+    data:penulis "dr. Meta Hanindita, Sp.A";
+    data:penerbit "Gramedia Pustaka Utama";
+    data:tahun_terbit "2020";
+    data:harga "110.000";
+    data:stok "22";
+    data:halaman "144";
+    data:isbn "978-602-0643-26-7";
+    data:urlFoto "";
+    .
+
+data:9 rdf:type data:buku;
+    data:id "9";
+    data:judul "Mama Papa Wajib Tahu Anak Sehat, Cerdas & Bahagia";
+    data:kategori "Parenting";
+    data:penulis "Ayu Bulan Febry K D, SKM, MM; Yuni Hermawaty, M.Psi, Psikolog; dr. Zulfito Marendra";
+    data:penerbit "Genta Group Production";
+    data:tahun_terbit "2017";
+    data:harga "120.000";
+    data:stok "6";
+    data:halaman "264";
+    data:isbn "978-602-6359-10-0";
+    data:urlFoto "";
+    .
+
+data:10 rdf:type data:buku;
+    data:id "10";
+    data:judul "BUKU BELAJAR MASAK: 30 SAJIAN MIE KREATIF";
+    data:kategori "Hobi";
+    data:penulis "Emy & Umar";
+    data:penerbit "Genta Group Production";
+    data:tahun_terbit "";
+    data:harga "34.000";
+    data:stok "10";
+    data:halaman "72";
+    data:isbn "978-602-1387-50-4";
+    data:urlFoto "";
+    .
+
+data:11 rdf:type data:buku;
+    data:id "11";
+    data:judul "BUKU BELAJAR MASAK: 60 RECIPES HOME MADE GORENGAN BERLAPIS";
+    data:kategori "Hobi";
+    data:penulis "Astuti Emy";
+    data:penerbit "Genta Group Production";
+    data:tahun_terbit "";
+    data:harga "58.000";
+    data:stok "8";
+    data:halaman "144";
+    data:isbn "";
+    data:urlFoto "";
+    .
+
+data:12 rdf:type data:buku;
+    data:id "12";
+    data:judul "JUZ 'AMMA TAJWID BERWARNA";
+    data:kategori "Agama";
+    data:penulis "Joko Waluyo, SPd.";
+    data:penerbit "Barokah Book";
+    data:tahun_terbit "2018";
+    data:harga "98.500";
+    data:stok "15";
+    data:halaman "148";
+    data:isbn "978-602-6744-09-8";
+    data:urlFoto "";
+    .
+
+data:13 rdf:type data:buku;
+    data:id "13";
+    data:judul "Jangan Jadi Akhwat Nyebelin";
+    data:kategori "Agama";
+    data:penulis "Vivi Amalia Anggraeni";
+    data:penerbit "Genta Group Production";
+    data:tahun_terbit "2017";
+    data:harga "52.000";
+    data:stok "2";
+    data:halaman "208";
+    data:isbn "978-602-5585-02-9";
+    data:urlFoto "";
+    .
+
+data:14 rdf:type data:buku;
+    data:id "14";
+    data:judul "Minhajul Muslimah";
+    data:kategori "Agama";
+    data:penulis "Muhammad Syafii Masykur";
+    data:penerbit "Genta Group Production";
+    data:tahun_terbit "2017";
+    data:harga "74.000";
+    data:stok "10";
+    data:halaman "352";
+    data:isbn "978-602-6359-36-0";
+    data:urlFoto "";
+    .
+
+data:15 rdf:type data:buku;
+    data:id "15";
+    data:judul "BE QURAN LOVERS - MEMBANGUN KELUARGA QUR'ANI";
+    data:kategori "Agama";
+    data:penulis "Ririn Astutiningrum, Ratnani Latifah";
+    data:penerbit "Genta Group Production";
+    data:tahun_terbit "2019";
+    data:harga "72.000";
+    data:stok "16";
+    data:halaman "280";
+    data:isbn "978-602-5585-89-0";
+    data:urlFoto "";
+    .
+
+data:16 rdf:type data:buku;
+    data:id "16";
+    data:judul "Betapa Allah Mencintaimu";
+    data:kategori "Agama";
+    data:penulis "Ratna Dewi Idrus";
+    data:penerbit "Genta Group Production";
+    data:tahun_terbit "2018";
+    data:harga "58.000";
+    data:stok "13";
+    data:halaman "216";
+    data:isbn "978-602-5585-46-3";
+    data:urlFoto "";
+    .
+
+data:17 rdf:type data:buku;
+    data:id "17";
+    data:judul "Best Score Toefl";
+    data:kategori "Bahasa";
+    data:penulis "Tim Presiden Eduka";
+    data:penerbit "Genta Smart Publisher";
+    data:tahun_terbit "2016";
+    data:harga "200.000";
+    data:stok "35";
+    data:halaman "760";
+    data:isbn "978-602-6359-05-6";
+    data:urlFoto "";
+    .
+
+data:18 rdf:type data:buku;
+    data:id "18";
+    data:judul "KAMUS PRAKTIS KANJI N5-N4";
+    data:kategori "Bahasa";
+    data:penulis "IRMA NIRMALA";
+    data:penerbit "Genta Group Production";
+    data:tahun_terbit "2020";
+    data:harga "110.000";
+    data:stok "167";
+    data:halaman "504";
+    data:isbn "978-623-235-026-7";
+    data:urlFoto "";
+    .
+
+data:19 rdf:type data:buku;
+    data:id "19";
+    data:judul "BEST SCORE TES CPNS 2021";
+    data:kategori "Kepegawaian";
+    data:penulis "Tim Presiden Eduka";
+    data:penerbit "Genta Smart Publisher";
+    data:tahun_terbit "2020";
+    data:harga "180.000";
+    data:stok "2";
+    data:halaman "692";
+    data:isbn "";
+    data:urlFoto "";
+    .
+
+data:20 rdf:type data:buku;
+    data:id "20";
+    data:judul "MENDAKI TANGGA YANG SALAH";
+    data:kategori "Pengembangan Diri";
+    data:penulis "Eric Barker";
+    data:penerbit "Gramedia Pustaka Utama";
+    data:tahun_terbit "";
+    data:harga "108.000";
+    data:stok "11";
+    data:halaman "378";
+    data:isbn "978-602-038-817-5";
+    data:urlFoto "";
+    .
+
+data:21 rdf:type data:buku;
+    data:id "21";
+    data:judul "BEDAH KONSEP INTI MATERI UTBK SBMPTN SOSHUM 2020";
+    data:kategori "Pelajaran";
+    data:penulis "Tim Tentor Inspiratif";
+    data:penerbit "Magenta Media";
+    data:tahun_terbit "2019";
+    data:harga "160.000";
+    data:stok "11";
+    data:halaman "524";
+    data:isbn "978-602-6744-34-0";
+    data:urlFoto "";
+    .
+
+data:22 rdf:type data:buku;
+    data:id "22";
+    data:judul "BANK SOAL FULL PEMBAHASAN KIMIA FPM SMA KLS 10-11-12";
+    data:kategori "Pelajaran";
+    data:penulis "Tim Master Eduka";
+    data:penerbit "Genta Smart Publisher";
+    data:tahun_terbit "2016";
+    data:harga "110.000";
+    data:stok "10";
+    data:halaman "530";
+    data:isbn "978-602-699-144-1";
+    data:urlFoto "";
+    .
+
+data:23 rdf:type data:buku;
+    data:id "23";
+    data:judul " HAND BOOK MATEMATIKA BIOLOGI SMA 10 11 12";
+    data:kategori "Pelajaran";
+    data:penulis "Tim Maestro Eduka";
+    data:penerbit "Genta Smart Publisher";
+    data:tahun_terbit "2016";
+    data:harga "64.000";
+    data:stok "31";
+    data:halaman "360";
+    data:isbn "978-602-6991-96-6";
+    data:urlFoto "";
+    .
+
+data:24 rdf:type data:buku;
+    data:id "24";
+    data:judul "SIKAT AKM SD/MI 2021";
+    data:kategori "Pelajaran";
+    data:penulis "Tim Master Eduka";
+    data:penerbit "Penerbit Duta";
+    data:tahun_terbit "2020";
+    data:harga "80.000";
+    data:stok "10";
+    data:halaman "199";
+    data:isbn "";
+    data:urlFoto "";
+    .
+
+data:25 rdf:type data:buku;
+    data:id "25";
+    data:judul "SIAP PENILAIAN ULANGAN UPDATE KELAS 1 SD/MI";
+    data:kategori "Pelajaran";
+    data:penulis "Tim Master Eduka";
+    data:penerbit "Kompas Ilmu";
+    data:tahun_terbit "2020";
+    data:harga "130.000";
+    data:stok "16";
+    data:halaman "544";
+    data:isbn "978-602-343-357-5";
+    data:urlFoto "";
+    .
+
+data:26 rdf:type data:buku;
+    data:id "26";
+    data:judul "Master of Grammar";
+    data:kategori "Bahasa";
+    data:penulis "Kent Ang-Zie";
+    data:penerbit "Genta Smart Publisher";
+    data:tahun_terbit "2016";
+    data:harga "88.000";
+    data:stok "191";
+    data:halaman "422";
+    data:isbn "978-602-6991-55-3";
+    data:urlFoto "";
+    .
+
+data:27 rdf:type data:buku;
+    data:id "27";
+    data:judul "Wow Japan! Kenali 7 Sisi Unik Kultur Jepang";
+    data:kategori "Bahasa";
+    data:penulis "Parastuti";
+    data:penerbit "Genta Group Production";
+    data:tahun_terbit "2016";
+    data:harga "48.000";
+    data:stok "13";
+    data:halaman "312";
+    data:isbn "978-602-6991-17-1";
+    data:urlFoto "";
+    .
+
+data:28 rdf:type data:buku;
+    data:id "28";
+    data:judul "40 Recipes Home Made Frozen Food";
+    data:kategori "Keterampilan";
+    data:penulis "Astuti Emy";
+    data:penerbit "Genta Group Production";
+    data:tahun_terbit "2015";
+    data:harga "10.000";
+    data:stok "9";
+    data:halaman "84";
+    data:isbn "978-602-6991-04-1";
+    data:urlFoto "";
+    .
+
+data:29 rdf:type data:buku;
+    data:id "29";
+    data:judul "GOOD TO GREAT";
+    data:kategori "Pengembangan Diri";
+    data:penulis "Jim Collins";
+    data:penerbit "Gramedia Pustaka Utama";
+    data:tahun_terbit "";
+    data:harga "135.000";
+    data:stok "1";
+    data:halaman "363";
+    data:isbn "";
+    data:urlFoto "";
+    .
+
+data:30 rdf:type data:buku;
+    data:id "30";
+    data:judul "7 Keajaiban Rezeki";
+    data:kategori "Pengembangan Diri";
+    data:penulis "Ippho Santosa";
+    data:penerbit "Elex Media Komputindo";
+    data:tahun_terbit "2020";
+    data:harga "101.520";
+    data:stok "9";
+    data:halaman "192";
+    data:isbn "978-979-27-6923-4";
+    data:urlFoto "";
+    .
+
+data:31 rdf:type data:buku;
+    data:id "31";
+    data:judul "Senin Bersama Rasulullah";
+    data:kategori "Agama";
+    data:penulis "Febriawan Jauhari";
+    data:penerbit "Magenta Media";
+    data:tahun_terbit "2019";
+    data:harga "46.200";
+    data:stok "143";
+    data:halaman "160";
+    data:isbn "";
+    data:urlFoto "";
+    .
+
+data:32 rdf:type data:buku;
+    data:id "32";
+    data:judul "CUKUP ALLAH SAJA";
+    data:kategori "Agama";
+    data:penulis "HambaAllah";
+    data:penerbit "Magenta Media";
+    data:tahun_terbit "2017";
+    data:harga "37.500";
+    data:stok "37";
+    data:halaman "108";
+    data:isbn "978-602-61522-4-4";
+    data:urlFoto "";
+    .
+
+data:33 rdf:type data:buku;
+    data:id "33";
+    data:judul "Kompetensi Pedagogik";
+    data:kategori "Psikologi";
+    data:penulis "Nur Irwanto dan Yusuf Suryana";
+    data:penerbit "Genta Group Production";
+    data:tahun_terbit "2016";
+    data:harga "112.000";
+    data:stok "17";
+    data:halaman "554";
+    data:isbn "978-602-6991-76-8";
+    data:urlFoto "";
+    .
+
+data:34 rdf:type data:buku;
+    data:id "34";
+    data:judul "JAGO CALISTUNG TK";
+    data:kategori "Anak";
+    data:penulis "Aidah Hanifa";
+    data:penerbit "Bintang Bunda";
+    data:tahun_terbit "2020";
+    data:harga "45.000";
+    data:stok "951";
+    data:halaman "80";
+    data:isbn "";
+    data:urlFoto "";
+    .
+
+data:35 rdf:type data:buku;
+    data:id "35";
+    data:judul "Wanita wanita penghuni surga";
+    data:kategori "Anak";
+    data:penulis "Endah Suci Astuti";
+    data:penerbit "Genta Group Production";
+    data:tahun_terbit "2017";
+    data:harga "52.000";
+    data:stok "44";
+    data:halaman "104";
+    data:isbn "978-602-6359-85-8";
+    data:urlFoto "";
+    .
+
+data:36 rdf:type data:buku;
+    data:id "36";
+    data:judul "Buku Aktivitas Anak Cerdas & Kreatif Seri Binatang";
+    data:kategori "Anak";
+    data:penulis "Tim BIntang Kecil";
+    data:penerbit "Bintang Kecil";
+    data:tahun_terbit "2017";
+    data:harga "41250";
+    data:stok "17";
+    data:halaman "";
+    data:isbn "978-602-2744-53-38";
+    data:urlFoto "";
+    .
+
+data:37 rdf:type data:buku;
+    data:id "37";
+    data:judul "Belajar Deket Sama Allah";
+    data:kategori "Agama";
+    data:penulis "#HambaAllah";
+    data:penerbit "Magenta Mediar";
+    data:tahun_terbit "2017";
+    data:harga "37.500";
+    data:stok "37";
+    data:halaman "146";
+    data:isbn "978-602-61522-3-7";
+    data:urlFoto "";
+    .
+
+data:38 rdf:type data:buku;
+    data:id "38";
+    data:judul "Matematika Pahala";
+    data:kategori "Agama";
+    data:penulis "Asrifin An Nakhrawie";
+    data:penerbit "Genta Group Production";
+    data:tahun_terbit "2017";
+    data:harga "28.800";
+    data:stok "10";
+    data:halaman "208";
+    data:isbn "";
+    data:urlFoto "";
+    .
+
+data:39 rdf:type data:buku;
+    data:id "39";
+    data:judul "Belajar Tajwid";
+    data:kategori "Agama";
+    data:penulis "Abdul Lathif";
+    data:penerbit "Barokah Book";
+    data:tahun_terbit "2018";
+    data:harga "38.100";
+    data:stok "42";
+    data:halaman "104";
+    data:isbn "978-602-6744-10-4";
+    data:urlFoto "";
+    .
+
+data:40 rdf:type data:buku;
+    data:id "40";
+    data:judul "Aku sopan berpakaian";
+    data:kategori "Anak";
+    data:penulis "Nurul Ihsan";
+    data:penerbit "Pustaka Ilham";
+    data:tahun_terbit "2018";
+    data:harga "10.000";
+    data:stok "37";
+    data:halaman "28";
+    data:isbn "978-602-525-093-4";
+    data:urlFoto "";
+    .
+
+data:41 rdf:type data:buku;
+    data:id "41";
+    data:judul "Putri Zahra";
+    data:kategori "Anak";
+    data:penulis "Tim Mega Jaya";
+    data:penerbit "Mega Jaya";
+    data:tahun_terbit "";
+    data:harga "2.500";
+    data:stok "148";
+    data:halaman "32";
+    data:isbn "";
+    data:urlFoto "";
+    .
+
+data:42 rdf:type data:buku;
+    data:id "42";
+    data:judul "Putri Adawiyah";
+    data:kategori "Anak";
+    data:penulis "Tim Mega Jaya";
+    data:penerbit "Mega Jaya";
+    data:tahun_terbit "";
+    data:harga "2.500";
+    data:stok "648";
+    data:halaman "33";
+    data:isbn "";
+    data:urlFoto "";
+    .
+
+data:43 rdf:type data:buku;
+    data:id "43";
+    data:judul "Putri Qonita";
+    data:kategori "Anak";
+    data:penulis "Tim Mega Jaya";
+    data:penerbit "Mega Jaya";
+    data:tahun_terbit "";
+    data:harga "2.500";
+    data:stok "68";
+    data:halaman "34";
+    data:isbn "";
+    data:urlFoto "";
+    .
+
+data:44 rdf:type data:buku;
+    data:id "44";
+    data:judul "Menyayangi Tumbuhan dan Hewan SD KLS III";
+    data:kategori "Pelajaran";
+    data:penulis "Yanti Kurnianingsih";
+    data:penerbit "KEMENDIKBUD";
+    data:tahun_terbit "";
+    data:harga "17.600";
+    data:stok "12";
+    data:halaman "218";
+    data:isbn "";
+    data:urlFoto "";
+    .
+
+data:45 rdf:type data:buku;
+    data:id "45";
+    data:judul "Taaruf, Khitbah, Nikah + Malam Pertama";
+    data:kategori "Agama";
+    data:penulis "Agus Ariwibowo";
+    data:penerbit "Genta Hidayah";
+    data:tahun_terbit "2017";
+    data:harga "32.000";
+    data:stok "3";
+    data:halaman "244";
+    data:isbn 978-602-6359-88-9";
+    data:urlFoto "";
+    .
+
+data:46 rdf:type data:buku;
+    data:id "46";
+    data:judul "Dear Diary, Jangan BETE";
+    data:kategori "Agama";
+    data:penulis "Vety Fakhrudin";
+    data:penerbit "Genta Group Production";
+    data:tahun_terbit "2017";
+    data:harga "33.000";
+    data:stok "19";
+    data:halaman "304";
+    data:isbn "978-602-6359-94-0";
+    data:urlFoto "";
+    .
+
+data:47 rdf:type data:buku;
+    data:id "47";
+    data:judul "Menjemput Jodoh Impian";
+    data:kategori "Agama";
+    data:penulis "Gadisturatea";
+    data:penerbit "Sahima";
+    data:tahun_terbit "2021";
+    data:harga "59.250";
+    data:stok "182";
+    data:halaman "208";
+    data:isbn "978-602-6744-56-2";
+    data:urlFoto "";
+    .
+
+data:48 rdf:type data:buku;
+    data:id "48";
+    data:judul "Menikmati Kepergianmu";
+    data:kategori "Agama";
+    data:penulis "Alfi Alghazi";
+    data:penerbit "Sahima";
+    data:tahun_terbit "";
+    data:harga "51.750";
+    data:stok "1";
+    data:halaman "200";
+    data:isbn "";
+    data:urlFoto "";
+    .
+
+data:49 rdf:type data:buku;
+    data:id "49";
+    data:judul "PAKET KOMPLIT 7 IN 1";
+    data:kategori "Anak";
+    data:penulis "HADIWIJAYA DAN DIAN SARI PANGESTUTI";
+    data:penerbit "PUSTAKA ILHAM";
+    data:tahun_terbit "2019";
+    data:harga "70.000";
+    data:stok "545";
+    data:halaman "168";
+    data:isbn "978-602-5250-96-5";
+    data:urlFoto "";
+    .
+
+data:50 rdf:type data:buku;
+    data:id "50";
+    data:judul "STRATEGI & BANK SOAL HOTS MATEMATIKA SMA/MA 10-11-12";
+    data:kategori "Pelajaran";
+    data:penulis "Tim Maestro Eduka";
+    data:penerbit "Genta Group Production";
+    data:tahun_terbit "2019";
+    data:harga "78.000";
+    data:stok "65";
+    data:halaman "264";
+    data:isbn "978-602-5585-95-1";
+    data:urlFoto "";
+    .
